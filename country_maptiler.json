@@ -1,0 +1,188 @@
+{
+    "tilestats": {
+      "languages": [
+        "am",
+        "ar",
+        "az",
+        "be",
+        "bg",
+        "br",
+        "bs",
+        "ca",
+        "co",
+        "cs",
+        "cy",
+        "da",
+        "de",
+        "el",
+        "en",
+        "eo",
+        "es",
+        "et",
+        "eu",
+        "fi",
+        "fr",
+        "fy",
+        "ga",
+        "gd",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "hy",
+        "id",
+        "is",
+        "it",
+        "ja",
+        "ka",
+        "kk",
+        "kn",
+        "ko",
+        "ku",
+        "la",
+        "lb",
+        "lt",
+        "lv",
+        "mk",
+        "mt",
+        "ml",
+        "nb",
+        "nl",
+        "nn",
+        "oc",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sq",
+        "sr",
+        "sv",
+        "ta",
+        "te",
+        "th",
+        "tr",
+        "uk",
+        "zh",
+        "latin",
+        "no",
+        "rm",
+        "nonlatin"
+      ],
+        "layerCount": 1,
+        "layers": [
+        {
+            "attributeCount": 11,
+            "attributes": [
+            {
+                "attribute": "level",
+                "type": "number",
+                "values": [0] 
+            },
+            {
+                "attribute": "iso_a2",
+                "type": "string"
+            },
+            {
+                "attribute": "code",
+                "type": "string"
+            },
+            {
+                "attribute": "name",
+                "type": "string"
+            },
+            {
+                "attribute": "wikidata",
+                "type": "string"
+            },
+            {
+                "attribute": "area",
+                "max": 16876904,
+                "min": 0,
+                "type": "number"
+            },
+            {
+                "attribute": "continent",
+                "type": "string",
+                "values": [
+                "Africa",
+                "Europe",
+                "Asia",
+                "Antarctica",
+                "North America",
+                "Australia",
+                "Seven seas",
+                "South America"
+                ]
+            },
+            {
+                "attribute": "level_0",
+                "type": "string"
+            },
+            {
+                "attribute": "name_int",
+                "type": "string"
+            }
+            ],
+            "geometry": "Polygon",
+            "layer": "administrative"
+        }
+        ]
+    },
+    "vector_layers": [
+        {
+        "description": "Contains data about countries of the world.",
+        "fields": {
+            "area": "Number",
+            "code": "String",
+            "continent": "String",
+            "gid": "Number",
+            "iso_a2": "String",
+            "level": "Number",
+            "level_0": "String",
+            "name": "String",
+            "name_int": "String",
+            "wikidata": "String"
+        },
+        "id": "administrative",
+        "maxzoom": 11,
+        "minzoom": 0,
+        "mvt_buffer": 64
+        }
+    ],
+    "tilejson": "2.1.0",
+    "pixel_scale": "256",
+    "format": "pbf",
+    "minzoom": 0,
+    "maxzoom": 11,
+    "version": "1.3.2",
+    "id": "countries",
+    "generator": "MapTiler Data",
+    "description": "The source contains data about countries of the world. Filtered to administrative level 0.",
+    "attribution": "<a href=\"https://www.maptiler.com/copyright/\" target=\"_blank\">&copy; MapTiler</a>",
+    "bounds": [
+        -180,
+        -85.05110000000002,
+        180,
+        85.05110000000002
+    ],
+    "center": [
+        0,
+        0,
+        1
+    ],
+    "logo": "https://api.maptiler.com/resources/logo.svg",
+    "name": "Countries",
+    "crs": "EPSG:3857",
+    "crs_wkt": "PROJCS[\"WGS 84 / Pseudo-Mercator\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Mercator_1SP\"],PARAMETER[\"central_meridian\",0],PARAMETER[\"scale_factor\",1],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],EXTENSION[\"PROJ4\",\"+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs\"],AUTHORITY[\"EPSG\",\"3857\"]]",
+    "extent": [
+        -20037508.342789244,
+        -20037471.205137074,
+        20037508.342789244,
+        20037471.205137093
+    ],
+    "tiles": [
+        "https://api.maptiler.com/tiles/countries/{z}/{x}/{y}.pbf?key=aMQaCGJjoB5A4T3WyAcZ"
+    ]
+    }
